@@ -82,8 +82,8 @@ def post_detail(post_id):
 def payment():
     # Set Your secret key: remember to change this to your live sceret key in pro
     # Set your keys here: https://dashboard.stripe.com/test/apikeys
-    stripe.api_keys = 'sk_test_SQ40sMWvWv2YKlly4bVRfLqv00DDrclluj'
-    publishable_key = 'pk_test_E51UR0ykv7igi3Arqr96Smpc00LWRXszu7'
+    stripe.api_keys = 'API_KEY'
+    publishable_key = 'API_KEY'
     price = 5000
 
 
